@@ -1,14 +1,12 @@
 {
   "private": "true",
   "scripts": {
-    "build": "webpack"
-  },
-  "dependencies": {
-    "lodash": "^4.17.21",
-    "phaser": "^3.55.2"
+    "build": "webpack",
+    "serve": "webpack serve --mode=development"
   },
   "devDependencies": {
     "webpack": "^5.70.0",
-    "webpack-cli": "^4.9.2"
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
   }
 }
